@@ -19,9 +19,6 @@ class StoreList extends Component{
         });
     }
 
-    postData = () => {
-
-    }
 
     deleteItem = () => {
         fetch('http://178.128.196.163:3000/api/records/', {
